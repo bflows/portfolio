@@ -1,0 +1,15 @@
+.tech-card {
+  display: flex;
+  align-items: center;
+  
+  padding: 10px 20px;
+  column-gap: 10px;
+
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.25);
+  cursor: default;
+
+  img {
+    width: 50px;
+  }
+}
