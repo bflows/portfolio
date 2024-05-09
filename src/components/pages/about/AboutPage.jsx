@@ -5,7 +5,7 @@ import './about.css'
 export default function AboutPage() {
   return (
     <div className="container" id='about'>
-      <section className="section" id='about'>
+      <section className="section">
         <h1 className="title is-2">About me</h1>
         <div className="block">
           <h2 className='title is-4'>A bit about me</h2>

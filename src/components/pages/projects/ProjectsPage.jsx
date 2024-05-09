@@ -4,30 +4,29 @@ import './projects.css'
 
 export default function ProjectsPage() {
   return (
-    <div className="container" id='projects'>
-      <section className="section is-large">
-
+    <div className="container" id='project-page'>
+      <section className="section">
         <h1 className="title">Projects</h1>
         <h2 className="subtitle">
           A home for all my projects in one place.
         </h2>
 
-        <div className="projects">
-          <Project 
+        <div id="projects">
+          <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
             name={"Project Name"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
-          <Project 
+          <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
             name={"Project Name"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
-          <Project 
+          <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
             name={"Project Name"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
@@ -35,7 +34,6 @@ export default function ProjectsPage() {
             datetime={"2024-5-2"}
           />
         </div>
-
       </section>
     </div>
   )

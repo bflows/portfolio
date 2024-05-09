@@ -10,7 +10,7 @@ export default function Project(props) {
   return (
     <div className="card">
       <div className="card-image">
-        <figure className="image is-4by3">
+        <figure className="image">
           <img
             src={img}
             alt="Project image"

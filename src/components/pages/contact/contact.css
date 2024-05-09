@@ -1,21 +1,17 @@
 #contact {
-  height: 100vh;
-
   section {
     h1 {
       text-align: center;
     }
 
-    #socials {
-      margin-top: 2rem;
+    #contactBtn {
+      display: flex;
+      justify-content: flex-end;
     }
 
-    #email {
-      margin-top: 2rem;
-
-      h4 {
-        margin-bottom: 1rem;
-      }
+    #socials {
+      display: flex;
+      justify-content: center;
     }
   }
 }
