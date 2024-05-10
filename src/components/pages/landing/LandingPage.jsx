@@ -7,7 +7,7 @@ export default function LandingPage() {
         <div className="hero-body">
           <div id='hero-container'>
             <p className="title">Billy Flowers</p>
-            <p className="subtitle">Full-Stack Web Developer</p>
+            <p className="subtitle">Software Engineer</p>
             <a href="#about">
               <button className="button is-primary">View Portfolio</button>
             </a>

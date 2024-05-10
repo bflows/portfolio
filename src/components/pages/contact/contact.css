@@ -15,3 +15,13 @@
     }
   }
 }
+
+.success-message {
+  color: rgb(0, 255, 0);
+  margin: 20px;
+}
+
+.error-message {
+  color: red;
+  margin: 20px;
+}

@@ -5,6 +5,8 @@ function toggleDropdown() {
   burger.classList.toggle("is-active")
 }
 
+import './navbar.css'
+
 export default function Navbar() {
   return (
     <nav
@@ -16,8 +18,8 @@ export default function Navbar() {
       <div className="container">
 
         <div className="navbar-brand">
-          <a className="navbar-item" href="https://bulma.io">
-            Navbar
+          <a className="navbar-item" href="">
+            Billy's Portfolio
           </a>
 
           <a
