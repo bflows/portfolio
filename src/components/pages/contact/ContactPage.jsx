@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm";
 import "./contact.css";
 
 export default function ContactPage() {
@@ -15,49 +16,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <form action="">
-          <div className="field">
-            <label className="label">Name</label>
-            <div className="control">
-              <input className="input" type="text" placeholder="Enter name" name="user_name" />
-            </div>
-          </div>
-          <div className="field">
-            <label className="label">Email</label>
-            <div className="control">
-              <input
-                className="input"
-                type="email"
-                placeholder="Enter your email"
-                name="user_email"
-              />
-            </div>
-          </div>
-          <div className="field">
-            <label className="label">Subject</label>
-            <div className="control">
-              <input
-                className="input"
-                type="text"
-                placeholder="Enter the subject"
-                name="subject"
-              />
-            </div>
-          </div>
-          <div className="field">
-            <label className="label">Message</label>
-            <div className="control">
-              <textarea
-                className="textarea"
-                placeholder="Enter your message"
-                name="message"
-              ></textarea>
-            </div>
-          </div>
-          <div className="block" id="contactBtn">
-            <button className="button is-primary">Send</button>
-          </div>
-        </form>
+        <ContactForm />
 
         <div className="block" id="email">
           <h4 className="title is-4">Email</h4>
