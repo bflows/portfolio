@@ -1,10 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const serviceKey = import.meta.env.VITE_SERVICE_KEY;
-const templateKey = import.meta.env.VITE_TEMPLATE_KEY;
-const myKey = import.meta.env.VITE_PUBLIC_KEY;
-
 export default function ContactForm() {
   const form = useRef();
   const [successMessage, setSuccessMessage] = useState("");
@@ -14,9 +10,14 @@ export default function ContactForm() {
     e.preventDefault();
 
     emailjs
-      .sendForm(serviceKey, templateKey, form.current, {
-        publicKey: myKey,
-      })
+      .sendForm(
+        import.meta.env.VITE_SERVICE_KEY,
+        import.meta.env.VITE_TEMPLATE_KEY,
+        form.current,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+        }
+      )
       .then(
         () => {
           console.log("SUCCESS!");
