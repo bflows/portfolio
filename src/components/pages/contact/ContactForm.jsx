@@ -11,11 +11,11 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVICE_KEY,
-        import.meta.env.VITE_TEMPLATE_KEY,
+        process.env.VITE_SERVICE_KEY,
+        process.env.VITE_TEMPLATE_KEY,
         form.current,
         {
-          publicKey: import.meta.env.VITE_PUBLIC_KEY,
+          publicKey: process.env.VITE_PUBLIC_KEY,
         }
       )
       .then(
