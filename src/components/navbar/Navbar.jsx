@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="container">
 
         <div className="navbar-brand">
-          <a className="navbar-item" href="">
+          <a className="navbar-item" href="" id='navbar-title'>
             Billy's Portfolio
           </a>
 

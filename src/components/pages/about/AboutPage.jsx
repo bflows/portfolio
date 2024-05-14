@@ -18,16 +18,16 @@ export default function AboutPage() {
 
         <div className="grid is-col-min-10" id='wrapper'>
           <div className="cell">
-            <Tech img={'react.png'} title={'React.js'} />
+            <Tech img={'react.png'} title={'React'} />
           </div>
           <div className="cell">
-            <Tech img={'express.png'} title={'Express.js'} />
+            <Tech img={'express.png'} title={'Express'} />
           </div>
           <div className="cell">
-            <Tech img={'node.svg'} title={'Node.js'} />
+            <Tech img={'node.svg'} title={'Node'} />
           </div>
           <div className="cell">
-            <Tech img={'insomnia.svg'} title={'Insomnia Rest'} />
+            <Tech img={'insomnia.svg'} title={'Insomnia'} />
           </div>
           <div className="cell">
             <Tech img={'mysql.png'} title={'MySQL'} />
