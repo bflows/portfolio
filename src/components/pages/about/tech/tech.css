@@ -1,15 +1,21 @@
 .tech-card {
   display: flex;
+  justify-content: center;
+  align-content: center;
   align-items: center;
+  height: 75px;
+  width: 200px;
   
-  padding: 10px 20px;
-  column-gap: 10px;
+  padding: 5px 10px;
+  column-gap: 15px;
 
   border-radius: 10px;
-  background-color: hsla(0, 0%, 100%, 0.25);
+  background-color: hsla(0, 0%, 15%, 0.25);
   cursor: default;
 
   img {
-    width: 50px;
+    /* background: #000; */
+    max-width: 50px;
+    max-height: 50px;
   }
 }
