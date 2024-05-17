@@ -4,18 +4,31 @@
   align-content: center;
   align-items: center;
   height: 75px;
-  width: 200px;
+  min-width: 275px;
   
   padding: 5px 10px;
-  column-gap: 15px;
+  gap: 15px;
 
   border-radius: 10px;
-  background-color: hsla(0, 0%, 15%, 0.25);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(10px);
   cursor: default;
 
   img {
     /* background: #000; */
     max-width: 50px;
     max-height: 50px;
+  }
+}
+
+/* @media only screen and (min-width: 538px) {
+  .tech-card {
+    width: 200px;
+  }
+} */
+
+@media only screen and (min-width: 768px) {
+  .tech-card {
+    width: 200px;
   }
 }

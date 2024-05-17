@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="container">
 
         <div className="navbar-brand">
-          <a className="navbar-item" href="" id='navbar-title'>
+          <a className="navbar-item" href="#landing" id='navbar-title'>
             Billy's Portfolio
           </a>
 
@@ -42,7 +42,7 @@ export default function Navbar() {
           <div className="navbar-end">
             <a className="navbar-item" href='#landing'>Home</a>
             <a className="navbar-item" href='#about'>About</a>
-            <a className="navbar-item" href='#project-page'>Projects</a>
+            <a className="navbar-item" href='#projects'>Projects</a>
             <a className="navbar-item" href='#contact'>Contact</a>
           </div>
         </div>

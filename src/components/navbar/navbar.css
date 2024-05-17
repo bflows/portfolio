@@ -8,6 +8,7 @@
 .navbar-brand {
   #navbar-title {
     color: hsl(167, 90%, 40%);
+    font-weight: 600;
   }
 }
 

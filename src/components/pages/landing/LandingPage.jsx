@@ -1,5 +1,5 @@
-import ParticlesComponent from "../../particles/particles";
-import "./landing.css";
+import ParticlesComponent from '../../particles/particles';
+import './landing.css';
 
 export default function LandingPage() {
   return (
@@ -8,10 +8,14 @@ export default function LandingPage() {
         <ParticlesComponent id="particles" />
         <div className="hero-body">
           <div id="hero-container">
-            <p className="title">Billy Flowers</p>
-            <p className="subtitle">Software Developer</p>
-            <a href="#about">
-              <button className="button is-primary" id="portfolioBtn">View Portfolio</button>
+            <h1 className="title is-2" id="name">
+              Billy Flowers
+            </h1>
+            <p className="subtitle" id="title">
+              Software Engineer
+            </p>
+            <a href="#about" className="button is-primary" id="portfolioBtn">
+              View Portfolio
             </a>
           </div>
         </div>

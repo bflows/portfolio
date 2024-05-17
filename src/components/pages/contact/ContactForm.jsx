@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+import './form.css'
+
 export default function ContactForm() {
   const form = useRef();
   const [successMessage, setSuccessMessage] = useState("");
@@ -44,7 +46,7 @@ export default function ContactForm() {
     <>
       <form ref={form} onSubmit={sendEmail}>
         <div className="field">
-          <label className="label" htmlFor="user_name">
+          <label className="label subtitle" htmlFor="user_name">
             Name
           </label>
           <div className="control">
@@ -60,7 +62,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="field">
-          <label className="label" htmlFor="user_email">
+          <label className="label subtitle" htmlFor="user_email">
             Email
           </label>
           <div className="control">
@@ -76,7 +78,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="field">
-          <label className="label" htmlFor="subject">
+          <label className="label subtitle" htmlFor="subject">
             Subject
           </label>
           <div className="control">
@@ -92,7 +94,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="field">
-          <label className="label" htmlFor="message">
+          <label className="label subtitle" htmlFor="message">
             Message
           </label>
           <div className="control">

@@ -2,8 +2,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+  #name {
+    letter-spacing: 1px;
+  }
+  #title {
+    letter-spacing: 2px;
+  }
 }
 
 #particles canvas {
@@ -13,8 +18,9 @@
   position: absolute;
 }
 
-.subtitle, #portfolioBtn {
-  margin-top: 0.375rem;
+.subtitle,
+#portfolioBtn {
+  margin-top: 0.4rem;
 }
 
 #portfolioBtn {
