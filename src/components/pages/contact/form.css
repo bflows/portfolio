@@ -8,8 +8,9 @@ form {
     .control {
       input,
       textarea {
-        background-color: hsl(167, 5%, 5%);
-        border: 2px solid hsl(167, 30%, 15%);
+        background-color: hsla(167, 30%, 40%, 0.1);
+        border: 2px solid hsl(167, 40%, 20%);
+        backdrop-filter: blur(10px);
       }
     }
   }
@@ -22,11 +23,12 @@ form {
         #socials {
           a {
             position: relative;
-            background-color: hsl(167, 5%, 5%);
-            border: 2px solid hsl(167, 30%, 15%);
+            background-color: hsla(167, 30%, 40%, 0.1);
+            border: 2px solid hsl(167, 40%, 20%);
+            backdrop-filter: blur(10px);
           }
           a:hover {
-            background-color: hsl(167, 30%, 15%);
+            background-color: hsla(167, 30%, 20%, 0.1);
           }
         }
       }
