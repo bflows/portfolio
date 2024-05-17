@@ -35,10 +35,10 @@ const ParticlesComponent = (props) => {
     () => ({
       background: {
         color: {
-          value: "#131313",
+          value: "hsl(167, 10%, 10%)",
         },
       },
-      fpsLimit: 60,
+      fpsLimit: 144,
       interactivity: {
         events: {
           onClick: {
@@ -62,10 +62,10 @@ const ParticlesComponent = (props) => {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "hsl(167, 90%, 40%)",
         },
         links: {
-          color: "#bfbfbf",
+          color: "hsl(167, 50%, 20%)",
           distance: 150,
           enable: true,
           opacity: 0.3,

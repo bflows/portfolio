@@ -1,15 +1,43 @@
 #projects {
+  section {
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      text-transform: capitalize;
+      letter-spacing: 0.1rem;
+    }
+    .block {
+      h3 {
+        color: var(--primary-text-color);
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+      }
+      p {
+        letter-spacing: 1px;
+        line-height: 1.75rem;
+      }
+    }
+  }
+}
+
+#my-projects {
   display: grid;
   justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  #projects {
+  #my-projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  #my-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 40px;
   }

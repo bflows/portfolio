@@ -1,0 +1,52 @@
+form {
+  .field {
+    label {
+      letter-spacing: 1px;
+      color: hsl(0, 0%, 80%);
+    }
+
+    .control {
+      input,
+      textarea {
+        background-color: hsl(167, 5%, 5%);
+        border: 2px solid hsl(167, 30%, 15%);
+      }
+    }
+  }
+}
+
+#contact {
+  section {
+    div {
+      #socials-wrapper {
+        #socials {
+          a {
+            position: relative;
+            background-color: hsl(167, 5%, 5%);
+            border: 2px solid hsl(167, 30%, 15%);
+          }
+          a:hover {
+            background-color: hsl(167, 30%, 15%);
+          }
+        }
+      }
+    }
+
+    #go-to-top {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      i {
+        margin-bottom: 5px;
+      }
+    }
+    #go-to-top:hover {
+      color: hsl(167, 90%, 60%);
+    }
+  }
+}
+
+#contact-info {
+  margin-bottom: 40px;
+}

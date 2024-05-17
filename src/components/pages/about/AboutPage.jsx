@@ -6,13 +6,13 @@ export default function AboutPage() {
   return (
     <div className="container" id='about'>
       <section className="section">
-        <h1 className="title is-2">About me</h1>
+        <h2 className="title is-2">About me</h2>
         <div className="block">
-          <h2 className='title is-4'>A bit about me</h2>
+          <h3 className='title is-4'>A bit about me</h3>
           <p>As a seasoned web developer with years of experience, I specialize in creating visually stunning, highly functional websites that captivate audiences and drive results. My passion lies in pushing the boundaries of web design, seamlessly blending cutting-edge technology with pixel-perfect precision.</p>
         </div>
         <div className="block">
-          <h2 className='title is-4'>Technologies and Tools</h2>
+          <h3 className='title is-4'>Technologies and Tools</h3>
           <p>With a deep understanding of the latest web development trends, I bring your digital vision to life with unparalleled skill and efficiency. From responsive layouts that adapt seamlessly across devices to lightning-fast load times that keep users engaged, every aspect of my work is meticulously crafted to deliver an exceptional user experience.</p>
         </div>
 
