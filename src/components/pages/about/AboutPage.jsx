@@ -1,5 +1,22 @@
 import Tech from './tech/Tech'
 
+// Logos
+import reactLogo from './images/react.png'
+import expressLogo from './images/express.png'
+import nodeLogo from './images/node.svg'
+import insomniaLogo from './images/insomnia.svg'
+import mySqlLogo from './images/mysql.png'
+import javascriptLogo from './images/js.png'
+import htmlLogo from './images/html5.png'
+import cssLogo from './images/css3.png'
+import bootstrapLogo from './images/bootstrap.svg'
+import bulmaLogo from './images/bulma.svg'
+import sassLogo from './images/sass.png'
+import tailwindLogo from './images/tailwindcss.svg'
+import gitLogo from './images/git.svg'
+import githubLogo from './images/github.svg'
+import firebaseLogo from './images/firebase.svg'
+
 import './about.css'
 
 export default function AboutPage() {
@@ -18,49 +35,49 @@ export default function AboutPage() {
 
         <div className="grid is-col-min-10" id='wrapper'>
           <div className="cell">
-            <Tech img={'react.png'} title={'React'} />
+            <Tech img={reactLogo} title={'React'} />
           </div>
           <div className="cell">
-            <Tech img={'express.png'} title={'Express'} />
+            <Tech img={expressLogo} title={'Express'} />
           </div>
           <div className="cell">
-            <Tech img={'node.svg'} title={'Node'} />
+            <Tech img={nodeLogo} title={'Node'} />
           </div>
           <div className="cell">
-            <Tech img={'insomnia.svg'} title={'Insomnia'} />
+            <Tech img={insomniaLogo} title={'Insomnia'} />
           </div>
           <div className="cell">
-            <Tech img={'mysql.png'} title={'MySQL'} />
+            <Tech img={mySqlLogo} title={'MySQL'} />
           </div>
           <div className="cell">
-            <Tech img={'js.png'} title={'JavaScript'} />
+            <Tech img={javascriptLogo} title={'JavaScript'} />
           </div>
           <div className="cell">
-            <Tech img={'html5.png'} title={'HTML'} />
+            <Tech img={htmlLogo} title={'HTML'} />
           </div>
           <div className="cell">
-            <Tech img={'css3.png'} title={'CSS'} />
+            <Tech img={cssLogo} title={'CSS'} />
           </div>
           <div className="cell">
-            <Tech img={'bootstrap.svg'} title={'Bootstrap'} />
+            <Tech img={bootstrapLogo} title={'Bootstrap'} />
           </div>
           <div className="cell">
-            <Tech img={'bulma.svg'} title={'Bulma'} />
+            <Tech img={bulmaLogo} title={'Bulma'} />
           </div>
           <div className="cell">
-            <Tech img={'sass.png'} title={'Sass'} />
+            <Tech img={sassLogo} title={'Sass'} />
           </div>
           <div className="cell">
-            <Tech img={'tailwindcss.svg'} title={'Tailwind'} />
+            <Tech img={tailwindLogo} title={'Tailwind'} />
           </div>
           <div className="cell">
-            <Tech img={'git.svg'} title={'Git'} />
+            <Tech img={gitLogo} title={'Git'} />
           </div>
           <div className="cell">
-            <Tech img={'github.svg'} title={'GitHub'} />
+            <Tech img={githubLogo} title={'GitHub'} />
           </div>
           <div className="cell">
-            <Tech img={'firebase.svg'} title={'Firebase'} />
+            <Tech img={firebaseLogo} title={'Firebase'} />
           </div>
         </div>
 
