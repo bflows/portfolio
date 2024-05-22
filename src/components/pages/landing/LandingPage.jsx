@@ -12,7 +12,7 @@ export default function LandingPage() {
               Billy Flowers
             </h1>
             <p className="subtitle" id="title">
-              Software Engineer
+              Software Developer
             </p>
             <a href="#about" className="button is-primary" id="portfolioBtn">
               View Portfolio
