@@ -53,7 +53,7 @@ export default function ContactForm() {
             <input
               className="input"
               type="text"
-              placeholder="Enter name"
+              placeholder="Enter your name"
               name="user_name"
               id="user_name"
               autoComplete="name"
