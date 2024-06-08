@@ -15,35 +15,35 @@ export default function ProjectsPage() {
         <div id="my-projects">
           <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
-            name={"Duckpond"}
+            name={"eCommerce Site"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Elit adipiscing amet sit iaculis nec amet..."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
           <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
-            name={"Project Name"}
+            name={"Business Website"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
           <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
-            name={"Project Name"}
+            name={"Weather Web Application"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
           <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
-            name={"Project Name"}
+            name={"DuckPond"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
           />
           <Project
             img={"https://bulma.io/assets/images/placeholders/1280x960.png"}
-            name={"Project Name"}
+            name={"Text-based Adventure Game"}
             desc={"Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."}
             date={"May 2, 2024"}
             datetime={"2024-5-2"}
